@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(105,194,205,255);
+    
+}
+.ul li {
+    display: inline;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+a {
+    color: azure;
+}
+.home {
+    background-color: rgba(105,194,205,255);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+  }
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    word-spacing: 4px;
+}
+.about {
+    background-color: rgba(105,194,205,255);
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ol b {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact {
+    background-color: rgba(105,194,205,255);
+    padding: 20px;
+}
+input {
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+}
+::placeholder {
+    font-size: larger;
+    padding: 25px;
+}
+.inp, .txtbut {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+textarea {
+    border-radius: 100px/30px;
+}
+button {
+    background-color: black;
+    border-radius: 140px;
+    color: aliceblue;
+    width: 105px;
+    height: 37px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
